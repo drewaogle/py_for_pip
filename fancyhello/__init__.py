@@ -1,0 +1,1 @@
+from .fancyprinter import fancyhello
