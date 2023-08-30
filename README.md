@@ -7,3 +7,13 @@ This is a simple module which relies on one other module in order to
 achieve the dreaded Hello World.
 
 Use at your own caution.
+## How?
+```
+pip install git+https://github.com/drewaogle/py_for_pip.git
+
+python3 -c "
+from fancyhello import fancyhello
+fancyhello()
+"
+```
+
