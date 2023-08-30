@@ -6,15 +6,19 @@ build-backend = "setuptools.build_meta"
 name = "fancyhello"
 version = "1.0.0"
 authors = [
- { name="Drew Ogle", email="drew@aperturedata.io" }
+ { name="Drew Ogle", email="drew@aperturedata.io" },
 ]
 description = "A simple package to test pip+git"
 readme = "README.md"
 requires-python = ">=3.6"
 classifiers = [
-	"Programming Language :: Python :: 3"
-	"License :: OSI Approved :: MIT License"
-	"Operating System :: OS Independent"
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+]
+
+dependencies = [
+	"rich>=13.5.2"
 ]
 
 [project.urls]
